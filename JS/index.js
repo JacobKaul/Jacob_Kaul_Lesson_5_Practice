@@ -35,11 +35,31 @@
     return text2.split("").reverse().join("");
   }
 // #5
-  if (number1 < number2){
+  function getLetterGrade(percentage)
+  {
+    var letterGrade = "";
+    
+    switch(true)
+    {
+      case (percentage >= 90 && percentage <= 100):
+        letterGrade = "A";
+        break;
+      case (percentage >= 80 && percentage <= 90):
+        letterGrade = "B";
+        break;
+      case (percentage >= 70 && percentage <= 80):
+        letterGrade = "C";
+        break;
+      case (percentage >= 60 && percentage <= 70):
+        letterGrade = "D";
+        break;
+      case (percentage >= 0 && percentage <= 60):
+        letterGrade = "F";
+        break;
+    }
   
+    return letterGrade;
   }
-  
-  
   
   
   
