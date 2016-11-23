@@ -35,7 +35,16 @@
     return text2.split("").reverse().join("");
   }
 // #5
-  function getLetterGrade(percentage)
+function sort
+var numbers = ["1", "2", "3"];
+numbers.sort();
+document.write(numbers.sort);
+
+
+
+// #6
+
+function getLetterGrade(percentage)
   {
     var letterGrade = "";
     
@@ -60,7 +69,3 @@
   
     return letterGrade;
   }
-  
-  
-  
-// #6
